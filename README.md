@@ -1,3 +1,5 @@
+- Spring web cert official study guide: https://d1fto35gcfffzn.cloudfront.net/academy/Spring_Web_4.2_Study_Guide.pdf
+
 # Spring-Web-Dev-Cert-4.2
 
 ## Spring Web Overview
@@ -58,6 +60,8 @@ https://www.tutorialspoint.com/spring/spring_applicationcontext_container.htm
 
 https://stackoverflow.com/questions/600095/splitting-applicationcontext-to-multiple-files
 
+https://stackoverflow.com/questions/6303242/loading-spring-application-context-files-that-are-inside-a-jar-in-classpath
+
 #### TIP:
 An easy way to explore project dependencies is to start the Spring Tool Suite, open a maven
 pom.xml file for a project that uses Spring MVC, then click on the “Dependency Graph” (or the
@@ -69,13 +73,50 @@ that highlight Spring MVC features).
 
 - How to configure DispatcherServlet in web.xml or using pure Java (servlet-3 style)
 
+  https://stackoverflow.com/questions/16458754/spring-web-mvc-dispatcher-servlet-xml-vs-applicationcontext-xml-plus-shared
+  
+  https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/WebApplicationInitializer.html
+  
+  https://stackoverflow.com/questions/22315672/how-to-configure-spring-mvc-with-pure-java-based-configuration
+
 - Understand @EnableMvc and the WebMvcConfigurerAdapter class
 
+  https://stackoverflow.com/questions/19291329/enablewebmvc-annotation-meaning
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-enablewebmvc-annotation/
+  
+  https://docs.spring.io/spring/docs/4.1.0.RELEASE/javadoc-api/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.html
+  
+  https://www.luckyryan.com/2013/02/07/migrate-spring-mvc-servlet-xml-to-java-config/
+  
+  http://www.logicbig.com/how-to/code-snippets/jcode-spring-mvc-webmvcconfigureradapter/
+  
+  https://dzone.com/articles/how-spring-boot-initialize-the-spring-mvc-applicat
+  
+  https://dzone.com/articles/spring-boot-vs-spring-mvc-vs-spring-how-do-they-compare
+  
+  https://dzone.com/articles/spring-mvc-and-java-based-configuration-1
+  
+  
 - Where do the ContextLoaderListener and the DispatcherServlet can find their configuration?
 
 - What features were introduced in Spring 4 to manage static resources?
 
+  http://www.baeldung.com/spring-mvc-static-resources
+
+  https://stackoverflow.com/questions/1483063/how-to-handle-static-content-in-spring-mvc
+  
+  https://spring.io/blog/2014/07/24/spring-framework-4-1-handling-static-web-resources
+  
+  https://stackoverflow.com/questions/25061237/spring-4-addresourcehandlers-not-resolving-the-static-resources
+
 -  What is the Resource Handling Chain?
+
+  https://spring.io/blog/2014/07/24/spring-framework-4-1-handling-static-web-resources
+  
+  https://www.slideshare.net/rstoya05/resource-handling-spring-framework-41
+  
+  https://github.com/bclozel/resource-handling-workshop/tree/master/angularjs
 
 ##### Tip:
 An important concept to keep in mind is that the DispatcherServlet looks for certain types of Spring
