@@ -173,3 +173,136 @@ actually do?
 
 - What features, introduced by Spring 3, must be enabled by specifying @EnableMvc or
 mvc:annotation-driven?
+
+
+## Spring MVC Programming Model Essentials
+
+The basics of the annotation-based programming model in Spring MVC, configuring
+@Controller-annotated classes, writing request-handling methods, and testing them.
+
+#### @REQUESTMAPPING ANNOTATION
+
+- The purpose of the annotation, what can be annotated, and what options (or attributes) it
+provides.
+
+  https://dzone.com/articles/using-the-spring-requestmapping-annotation
+  
+  https://www.journaldev.com/3358/spring-requestmapping-requestparam-pathvariable-example
+  
+  https://static.javadoc.io/org.springframework/spring-web/4.2.0.RELEASE/index.html?org/springframework/web/bind/annotation/RequestMapping.html
+  
+  
+- How a URL breaks down (web application context, servlet name, path info) as well as which
+part of the URL is used in Spring MVC for request mapping purposes
+
+  here servlet name is mapping to the dispatcher servlet.
+  
+  http://www.baeldung.com/spring-requestmapping
+  
+  https://stackoverflow.com/questions/13213061/springmvc-requestmapping-for-get-parameters
+  
+  https://stackoverflow.com/questions/2513031/multiple-spring-requestmapping-annotations
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-request-mapping/
+
+##### Tip:
+In the exam you may be given basic examples of URL's and annotated controller methods. You will
+be expected to predict what methods will be invoked. The best way to experiment is to try it out.
+Use the course labs, and check the Spring MVC logging information on each request!
+Also examine the logs for output from HandlerMapping beans. HandlerMapping beans construct
+URL mappings during startup and log that information. The log level for org.springframework.web
+must be set to DEBUG.
+
+Below are a couple of specific scenarios to experiment with.
+##### Scenario 1: a RequestMappingHandlerMapping with one Controller and a single method
+annotated with @RequestMapping(“/foo”).
+Questions: What URL's reach the method successfully? Does adding an extension to the URL
+(.pdf, .xml) make a difference? How about more segments (/foo/bar)? Passing anything (/other)?
+
+Try switching to @RequestMapping(method=RequestMethod.GET), does it still work?
+
+##### Scenario 2: Similar to scenario 1 but involving a ControllerClassNameHandlerMapping, a
+controller (FooController) and a method (bar) annotated with
+@RequestMapping(method=RequestMethod.GET)
+
+#### REQUEST HANDLING METHODS
+
+- How to write methods to handle requests
+
+##### TIP: Must have to read documentations/books on spring mvc
+
+  https://stackoverflow.com/questions/17987380/combine-get-and-post-request-methods-in-spring
+  
+  https://doanduyhai.wordpress.com/2012/03/11/spring-mvc-part-i-request-handling/
+  
+  http://stacktips.com/tutorials/java/spring/how-spring-controller-request-mapping-works-in-spring-mvc
+  
+  https://stackoverflow.com/questions/38102569/spring-mvc-how-to-get-a-handler-method-for-a-request
+  
+    
+- What annotations can be used?
+
+- What the signature of the method can be – input argument types, return types?
+
+- What happens if the method returns void?
+
+##### Tip:
+In addition to the annotations listed below, the JavaDoc of the @RequestMapping annotation is a
+good place to start for information on how input arguments and return values are interpreted on
+@RequestMapping-annotated methods.
+
+#### @REQUESTPARAM AND @PATHVARIABLE ANNOTATIONS
+
+- The purpose of the annotation
+
+- What can be annotated?
+
+- What options (or attributes) does it provide?
+
+- Can it handle optional parameters?
+
+#### @MODELATTRIBUTE ANNOTATION
+
+- The purpose of the annotation, what can be annotated, what options (or attributes) it
+provides?
+
+- What is the default name given to a model attribute object if the attribute name is left
+unspecified?
+
+- What is the default attribute name given to a model attribute object that is an array or a
+collection?
+
+#### OTHER ANNOTATIONS
+
+- How do you access request headers or cookies?
+
+- What does @Value("#{request.requestURL}") do?
+August 2017 © Copyright 2017 Pivotal Software, Inc. All rights reserved 8
+
+### Spring MVC Views
+
+- The basics of how views work.
+
+- What do they do?
+
+- How are they typically instantiated through the process of view resolution?
+
+- What is a logical view name?
+
+- What is the default logical view name selected if a controller method does not specify it
+(method returns void or null).
+VIEW RESOLVERS
+
+- The purpose of the ViewResolver strategy, and the details of configuring it?
+
+- You should be familiar with the several different view-resolvers covered on the course.
+
+- How do ViewResolver chains work?
+
+- How they can be used to render multiple content types – for example to re-use the same
+controller method to render HTML, PDF, or XML depending on the content type requested
+by the client.
+
+- Understanding <mvc:view-resolvers>
+
+- Content negotiation can be specified in three different ways – how?
