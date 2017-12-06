@@ -1,5 +1,7 @@
 - Spring web cert official study guide: https://d1fto35gcfffzn.cloudfront.net/academy/Spring_Web_4.2_Study_Guide.pdf
 
+- cert guide: https://github.com/vojtechruz/spring-web-cert-notes-4.2/blob/master/Spring%20Web%20Certification%20Notes%204.2.md
+
 # Spring-Web-Dev-Cert-4.2
 
 ## Spring Web Overview
