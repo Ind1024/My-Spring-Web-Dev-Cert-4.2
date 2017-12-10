@@ -1,6 +1,6 @@
 - Spring web cert official study guide: https://d1fto35gcfffzn.cloudfront.net/academy/Spring_Web_4.2_Study_Guide.pdf
 
-- cert guide: https://github.com/vojtechruz/spring-web-cert-notes-4.2/blob/master/Spring%20Web%20Certification%20Notes%204.2.md
+- cert notes: https://github.com/vojtechruz/spring-web-cert-notes-4.2/blob/master/Spring%20Web%20Certification%20Notes%204.2.md
 
 # Spring-Web-Dev-Cert-4.2
 
@@ -246,7 +246,27 @@ controller (FooController) and a method (bar) annotated with
 
 - What the signature of the method can be – input argument types, return types?
 
+  https://stackoverflow.com/questions/12696222/spring-mvc-controller-method-signatures
+  
+  https://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/mvc.html#mvc-ann-arguments
+  
+  https://docs.spring.io/spring/docs/3.1.x/spring-framework-reference/html/mvc.html#mvc-ann-return-types
+  
+  
+
 - What happens if the method returns void?
+  
+  https://stackoverflow.com/questions/8045881/can-a-controller-method-returning-void-produce-json
+  
+  https://stackoverflow.com/questions/12837907/what-to-return-if-spring-mvc-controller-method-doesnt-return-value
+  
+  https://stackoverflow.com/questions/29365833/what-are-valid-return-types-of-a-spring-mvc-controller-method
+  
+  https://stackoverflow.com/questions/8045881/can-a-controller-method-returning-void-produce-json
+  
+  https://stackoverflow.com/questions/676663/what-do-i-return-if-the-return-type-of-a-method-is-void-not-void
+  
+  
 
 ##### Tip:
 In addition to the annotations listed below, the JavaDoc of the @RequestMapping annotation is a
