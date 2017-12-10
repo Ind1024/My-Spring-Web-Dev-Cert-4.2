@@ -298,8 +298,6 @@ good place to start for information on how input arguments and return values are
   https://docs.spring.io/spring/docs/4.3.12.RELEASE/spring-framework-reference/htmlsingle/#portlet-ann-requestparam
   
   https://docs.spring.io/autorepo/docs/spring/4.0.4.RELEASE/javadoc-api/org/springframework/web/bind/annotation/RequestParam.html
-  
-  
 
 - Can it handle optional parameters?
 
