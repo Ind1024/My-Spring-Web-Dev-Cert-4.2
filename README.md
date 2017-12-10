@@ -275,11 +275,31 @@ good place to start for information on how input arguments and return values are
 
 #### @REQUESTPARAM AND @PATHVARIABLE ANNOTATIONS
 
+  ##### Differences:
+  
+    https://stackoverflow.com/questions/13715811/requestparam-vs-pathvariable
+    
+    https://javabeat.net/spring-mvc-requestparam-pathvariable/
+    
+    http://findnerd.com/list/view/Spring-MVC-RequestParam-vs-PathVariable/7016/
+    
+    https://www.dineshonjava.com/requestparam-vs-pathvariable-annotations-in-spring-mvc/
+    
+    https://www.journaldev.com/3358/spring-requestmapping-requestparam-pathvariable-example
+    
+    http://www.javapedia.net/Spring-MVC-Interview-questions/676
+
 - The purpose of the annotation
 
 - What can be annotated?
 
 - What options (or attributes) does it provide?
+
+  https://docs.spring.io/spring/docs/4.3.12.RELEASE/spring-framework-reference/htmlsingle/#portlet-ann-requestparam
+  
+  https://docs.spring.io/autorepo/docs/spring/4.0.4.RELEASE/javadoc-api/org/springframework/web/bind/annotation/RequestParam.html
+  
+  
 
 - Can it handle optional parameters?
 
