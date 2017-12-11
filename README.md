@@ -330,6 +330,8 @@ unspecified?
 - What is the default attribute name given to a model attribute object that is an array or a
 collection?
 
+  https://stackoverflow.com/questions/14420599/how-to-find-a-model-from-a-collection-according-to-some-attribute-other-than-the
+
 #### OTHER ANNOTATIONS
 
 - How do you access request headers or cookies?
