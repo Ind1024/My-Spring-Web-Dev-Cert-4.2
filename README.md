@@ -399,6 +399,12 @@ by the client.
 
 - Understanding <mvc:view-resolvers>
 
+  https://stackoverflow.com/questions/18215402/spring-mvc-with-multiple-view-resolvers
+
+  https://examples.javacodegeeks.com/enterprise-java/spring/mvc/spring-mvc-view-resolver-example/
+  
+  https://stackoverflow.com/questions/34698633/usage-of-different-viewresolver-in-spring-mvc
+  
 - Content negotiation can be specified in three different ways – how?
 
   https://dzone.com/articles/content-negotiation-using-0
