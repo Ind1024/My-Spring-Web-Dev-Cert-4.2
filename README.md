@@ -306,8 +306,26 @@ good place to start for information on how input arguments and return values are
 - The purpose of the annotation, what can be annotated, what options (or attributes) it
 provides?
 
+  https://stackoverflow.com/questions/3423262/what-is-modelattribute-in-spring-mvc
+  
+  ** http://www.baeldung.com/spring-mvc-and-the-modelattribute-annotation
+  
+  http://www.captaindebug.com/2011/11/using-spring-mvcs-modelattribute.html#.Wi3KjEqnHIU
+  
+  http://www.captaindebug.com/2011/11/using-spring-mvcs-modelattribute.html#.Wi3KjEqnHIU
+  
+  http://www.codelooru.com/2010/11/how-does-modelattribute-work.html
+  
+  https://javabeat.net/modelattribute-spring-mvc/
+  
+
 - What is the default name given to a model attribute object if the attribute name is left
 unspecified?
+
+  https://stackoverflow.com/questions/42462450/spring-binding-object-with-and-without-modelattribute
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-model-attribute-generated-names/
+  
 
 - What is the default attribute name given to a model attribute object that is an array or a
 collection?
@@ -315,9 +333,21 @@ collection?
 #### OTHER ANNOTATIONS
 
 - How do you access request headers or cookies?
+  
+  https://stackoverflow.com/questions/19556039/spring-mvc-controller-rest-service-needs-access-to-header-information-how-to-do
+  
+  https://stackoverflow.com/questions/6863443/springframework-get-all-request-headers
+  
+  https://stackoverflow.com/questions/28209242/read-http-headers-in-java-spring-rest-api
+  
+  
 
 - What does @Value("#{request.requestURL}") do?
-August 2017 © Copyright 2017 Pivotal Software, Inc. All rights reserved 8
+
+  https://stackoverflow.com/questions/28650149/how-exactly-works-this-rest-method-that-handle-a-post-request-in-spring
+  
+  https://stackoverflow.com/questions/28657056/how-exactly-does-this-rest-method-that-creates-a-new-object-work
+
 
 ### Spring MVC Views
 
