@@ -408,3 +408,106 @@ by the client.
 - Content negotiation can be specified in three different ways – how?
 
   https://dzone.com/articles/content-negotiation-using-0
+  
+  
+### Spring MVC Form Processing
+
+- The basics of working with forms such as how to configure data binding through the
+@ModelAttribute annotation and how data binding is used to populate the form object from
+request parameter values.
+
+- Can data binding be used on a POST or can it also be done on a GET request (consider
+search forms vs. forms updating data).
+
+- How can a request handling method get access to the results of data binding?
+@SESSIONATTRIBUTES ANNOTATION
+
+- The purpose of the @SessionAttributes annotation, what can be annotated, and what
+options it provides.
+
+##### Tip:
+
+The @SessionAttributes annotation provides more than one way to specify what objects should be
+added to the HTTP Session. Be sure to check them. A good way to learn what options any Spring
+annotation provides is the Javadoc of the annotation.
+
+- Understand the lifecycle of attributes specified by @SessionAttributes – how long they
+remain around, when and how they can be removed from the HTTP Session.
+
+- How does @SessionAttributes work when it's used with multiple controllers – for example is
+the data stored globally to the HTTP session (e.g. user preferences) or is it per-controller
+(e.g. account editing).
+@INITBINDER ANNOTATION AND DATA BINDING CUSTOMIZATIONS
+
+- The purpose of the @InitBinder annotation, what can be annotated, and what options it
+provides.
+
+- What customizations can be applied to the data binding mechanism?
+
+- What error codes are generated automatically during data binding?
+
+- What error codes can be used to customize the errors generated during data binding?
+SPRING FORM TAG LIBRARY
+
+- The purpose and the value provided by the Spring form tags, and how to use them.
+
+- How are error-messages handled? In the Controller? Using form tags?
+FORMATTERS AND VALIDATION
+
+- Understand the Spring stateless formatters (introduced by Spring 3.0)
+
+- What can they do, where are they used?
+
+- How do they interact with the formatting annotations?
+
+- How can the form model object be validated?
+
+- How do Spring forms leverage JSR 303 bean validation?
+
+- How can error messages be customized?
+
+
+### Spring MVC REST
+
+- What does REST stand for?
+
+- What is a resource?
+
+- What are safe operations?
+
+- What are idempotent operations? Why is idempotency important?
+
+- Is REST scalable and/or interoperable?
+
+- What are the advantages of the RestTemplate?
+
+- Which HTTP-Methods does REST use?
+
+- What is an HttpMessageConverter? How are they configured?
+
+- Is REST stateless?
+
+- What does @RequestMapping do?
+
+- Is @Controller a stereotype? Is @RestController a stereotype?
+
+- What is the difference between @Controller and @RestControler?
+
+- When do you need @ResponseBody? Or @RequestBody?
+
+- What does @PathVariable do?
+
+- What is the HTTP status code for a delete statement? What about for a create?
+
+- What does CRUD mean? Which HTTP methods do you use for each CRUD operation?
+
+- Is REST secure? What can you do to secure it?
+
+- Where do you need @EnableWebMVC? What about <mvc-annotation-driven>?
+
+- Name some common HTP response codes. When do you need @ResponseStatus?
+
+- Does REST work with transport layer security (TLS)?
+
+- Do you need Spring MVC in your classpath?
+
