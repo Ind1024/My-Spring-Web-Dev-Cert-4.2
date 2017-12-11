@@ -6,6 +6,9 @@
 
 ## Spring Web Overview
 
+  https://dzone.com/articles/how-spring-mvc-really-works
+  
+
 - Basic facts about what Spring Web is, what products it consists of and how they relate to each other in terms of dependencies.
 
 
@@ -277,17 +280,17 @@ good place to start for information on how input arguments and return values are
 
   ##### Differences:
   
-    https://stackoverflow.com/questions/13715811/requestparam-vs-pathvariable
+   https://stackoverflow.com/questions/13715811/requestparam-vs-pathvariable
     
-    https://javabeat.net/spring-mvc-requestparam-pathvariable/
+   https://javabeat.net/spring-mvc-requestparam-pathvariable/
     
-    http://findnerd.com/list/view/Spring-MVC-RequestParam-vs-PathVariable/7016/
+   http://findnerd.com/list/view/Spring-MVC-RequestParam-vs-PathVariable/7016/
     
-    https://www.dineshonjava.com/requestparam-vs-pathvariable-annotations-in-spring-mvc/
+   https://www.dineshonjava.com/requestparam-vs-pathvariable-annotations-in-spring-mvc/
     
-    https://www.journaldev.com/3358/spring-requestmapping-requestparam-pathvariable-example
+   https://www.journaldev.com/3358/spring-requestmapping-requestparam-pathvariable-example
     
-    http://www.javapedia.net/Spring-MVC-Interview-questions/676
+   http://www.javapedia.net/Spring-MVC-Interview-questions/676
 
 - The purpose of the annotation
 
@@ -353,6 +356,8 @@ collection?
 
 ### Spring MVC Views
 
+  http://www.baeldung.com/spring-mvc-view-resolver-tutorial
+
 - The basics of how views work.
 
 - What do they do?
@@ -363,7 +368,8 @@ collection?
 
 - What is the default logical view name selected if a controller method does not specify it
 (method returns void or null).
-VIEW RESOLVERS
+
+#### VIEW RESOLVERS
 
 - The purpose of the ViewResolver strategy, and the details of configuring it?
 
