@@ -358,6 +358,10 @@ collection?
 
   http://www.baeldung.com/spring-mvc-view-resolver-tutorial
 
+  https://www.mkyong.com/spring-mvc/spring-mvc-internalresourceviewresolver-example/
+  
+  https://docs.spring.io/spring/docs/4.3.12.RELEASE/spring-framework-reference/htmlsingle/#mvc-viewresolver
+  
 - The basics of how views work.
 
 - What do they do?
@@ -373,9 +377,21 @@ collection?
 
 - The purpose of the ViewResolver strategy, and the details of configuring it?
 
+  https://www.mkyong.com/spring-mvc/configure-multiple-view-resolvers-priority-in-spring-mvc/
+
 - You should be familiar with the several different view-resolvers covered on the course.
 
 - How do ViewResolver chains work?
+
+  https://dzone.com/articles/chaining-url-view-resolvers
+  
+  https://javabeat.net/extending-viewresolver-and-chaining-viewresolvers-in-spring-mvc/
+  
+  https://blog.frankel.ch/chaining-url-view-resolvers-in-spring-mvc/#gsc.tab=0
+  
+  https://stackoverflow.com/questions/11516494/chaining-spring-view-resolvers
+  
+  https://stackoverflow.com/questions/24606045/how-does-spring-know-which-view-resolver-to-use
 
 - How they can be used to render multiple content types – for example to re-use the same
 controller method to render HTML, PDF, or XML depending on the content type requested
@@ -384,3 +400,5 @@ by the client.
 - Understanding <mvc:view-resolvers>
 
 - Content negotiation can be specified in three different ways – how?
+
+  https://dzone.com/articles/content-negotiation-using-0
