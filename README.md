@@ -8,6 +8,7 @@
 
   https://dzone.com/articles/how-spring-mvc-really-works
   
+  http://www.baeldung.com/category/spring-mvc/
 
 - Basic facts about what Spring Web is, what products it consists of and how they relate to each other in terms of dependencies.
 
@@ -412,15 +413,39 @@ by the client.
   
 ### Spring MVC Form Processing
 
+  https://spring.io/guides/gs/handling-form-submission/
+  
+  
+
 - The basics of working with forms such as how to configure data binding through the
 @ModelAttribute annotation and how data binding is used to populate the form object from
 request parameter values.
+
+  http://www.baeldung.com/spring-mvc-form-tutorial
+  
+  http://www.mkyong.com/spring-mvc/spring-mvc-form-handling-example/
+  
+  http://websystique.com/springmvc/spring-4-mvc-form-validation-with-hibernate-jsr-validator-resource-handling-using-annotations/
+  
+  https://examples.javacodegeeks.com/enterprise-java/spring/mvc/spring-mvc-form-handling-example/
+  
+  https://dzone.com/articles/spring-mvc-example-for-user-registration-and-login-1
 
 - Can data binding be used on a POST or can it also be done on a GET request (consider
 search forms vs. forms updating data).
 
 - How can a request handling method get access to the results of data binding?
 @SESSIONATTRIBUTES ANNOTATION
+
+  https://www.boraji.com/spring-mvc-4-sessionattributes-example
+  
+  https://stackoverflow.com/questions/18791645/how-to-use-session-attributes-in-spring-mvc
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-model-attribute-with-session/
+  
+  https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/bind/annotation/SessionAttributes.html
+  
+  http://www.java-allandsundry.com/2014/04/using-http-session-with-spring-based.html
 
 - The purpose of the @SessionAttributes annotation, what can be annotated, and what
 options it provides.
