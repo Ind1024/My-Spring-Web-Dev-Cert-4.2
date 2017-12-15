@@ -9,6 +9,8 @@
   https://dzone.com/articles/how-spring-mvc-really-works
   
   http://www.baeldung.com/category/spring-mvc/
+  
+  https://dzone.com/refcardz/spring-annotations
 
 - Basic facts about what Spring Web is, what products it consists of and how they relate to each other in terms of dependencies.
 
@@ -490,7 +492,33 @@ the data stored globally to the HTTP session (e.g. user preferences) or is it pe
 - The purpose of the @InitBinder annotation, what can be annotated, and what options it
 provides.
 
+  https://dzone.com/articles/spring-initbinder-for-handling-large-list-of-java
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-custom-property-editor/
+  
+  https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/InitBinder.html
+  
+  http://fruzenshtein.com/spring-mvc-validator-initbinder/
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-mvc-custom-formatter/
+  
+  https://www.javacodegeeks.com/2013/06/spring-mvc-validator-and-initbinder.html
+  
+  https://www.intertech.com/Blog/spring-frameworks-webdatabinder/
+
 - What customizations can be applied to the data binding mechanism?
+
+   http://www.baeldung.com/spring-mvc-custom-data-binder
+   
+   http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-request-param-data-binding/
+   
+   http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-request-param-data-binding/
+   
+   https://blog.trifork.com/2011/12/08/use-immutable-objects-in-your-spring-mvc-controller-by-implementing-your-own-webargumentresolver/
+   
+   https://stackoverflow.com/questions/8986593/how-to-customize-parameter-names-when-binding-spring-mvc-command-objects
+   
+   
 
 - What error codes are generated automatically during data binding?
 
