@@ -457,12 +457,35 @@ added to the HTTP Session. Be sure to check them. A good way to learn what optio
 annotation provides is the Javadoc of the annotation.
 
 - Understand the lifecycle of attributes specified by @SessionAttributes – how long they
-remain around, when and how they can be removed from the HTTP Session.
+remain around, when and how they can be removed from the HTTP Session.  
+
+  https://www.intertech.com/Blog/understanding-spring-mvc-model-and-session-attributes/
+
+  http://vmustafayev4en.blogspot.com/2012/10/power-of-springs-modelattribute-and.html
+  
+  https://dzone.com/articles/using-http-session-spring
+  
+  https://stackoverflow.com/questions/18209233/spring-mvc-how-to-remove-session-attribute
+  
+  http://forum.spring.io/forum/spring-projects/web/69498-when-do-sessionattributes-in-springmvc-get-removed-with-code-sample
+  
 
 - How does @SessionAttributes work when it's used with multiple controllers – for example is
 the data stored globally to the HTTP session (e.g. user preferences) or is it per-controller
 (e.g. account editing).
-@INITBINDER ANNOTATION AND DATA BINDING CUSTOMIZATIONS
+
+  https://coderanch.com/t/506713/framework/pass-object-MVC-controllers
+  
+  http://forum.spring.io/forum/spring-projects/web/114053-sessionattributes-and-two-controllers
+  
+  https://stackoverflow.com/questions/10401402/how-to-share-sessionattributes-between-controllers-in-spring-mvc
+  
+  https://www.roseindia.net/tutorial/spring/spring3/web/SessionAttributes-multiple-values.html
+  
+  https://coderanch.com/t/506713/framework/pass-object-MVC-controllers
+    
+
+#### @INITBINDER ANNOTATION AND DATA BINDING CUSTOMIZATIONS
 
 - The purpose of the @InitBinder annotation, what can be annotated, and what options it
 provides.
