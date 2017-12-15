@@ -417,6 +417,9 @@ by the client.
 
   https://spring.io/guides/gs/handling-form-submission/
   
+  Read for spring 4.2:
+  https://docs.spring.io/spring/docs/3.0.x/spring-framework-reference/html/validation.html
+  
   
 
 - The basics of working with forms such as how to configure data binding through the
@@ -523,12 +526,14 @@ provides.
 - What error codes are generated automatically during data binding?
 
 - What error codes can be used to customize the errors generated during data binding?
-SPRING FORM TAG LIBRARY
+
+#### SPRING FORM TAG LIBRARY
 
 - The purpose and the value provided by the Spring form tags, and how to use them.
 
 - How are error-messages handled? In the Controller? Using form tags?
-FORMATTERS AND VALIDATION
+
+#### FORMATTERS AND VALIDATION
 
 - Understand the Spring stateless formatters (introduced by Spring 3.0)
 
@@ -556,6 +561,12 @@ FORMATTERS AND VALIDATION
 - Is REST scalable and/or interoperable?
 
 - What are the advantages of the RestTemplate?
+
+  http://www.tutorialsdesk.com/2016/01/spring-rest-client-with-resttemplate.html
+  
+  https://www.javacodegeeks.com/2014/12/spring-resttemplate-with-a-linked-resource.html
+  
+  https://spring.io/blog/2009/03/27/rest-in-spring-3-resttemplate
 
 - Which HTTP-Methods does REST use?
 
