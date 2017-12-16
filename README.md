@@ -572,6 +572,14 @@ provides.
 
 - What is an HttpMessageConverter? How are they configured?
 
+  http://www.baeldung.com/spring-httpmessageconverter-rest
+  
+  https://www.dineshonjava.com/customizing-httpmessageconverter-with-spring-mvc-in-rest/
+  
+  https://dzone.com/articles/customizing
+  
+  https://stackoverflow.com/questions/5019162/custom-httpmessageconverter-with-responsebody-to-do-json-things
+
 - Is REST stateless?
 
 - What does @RequestMapping do?
@@ -579,6 +587,18 @@ provides.
 - Is @Controller a stereotype? Is @RestController a stereotype?
 
 - What is the difference between @Controller and @RestControler?
+
+  https://stackoverflow.com/questions/25242321/difference-between-spring-controller-and-restcontroller-annotation
+  
+  https://www.genuitec.com/spring-frameworkrestcontroller-vs-controller/
+  
+  https://dzone.com/articles/spring-framework-restcontroller-vs-controller
+  
+  https://www.dineshonjava.com/difference-between-controller-vs-restcontroller-in-spring-mvc/
+  
+  http://javarevisited.blogspot.com/2017/08/difference-between-restcontroller-and-controller-annotations-spring-mvc-rest.html
+  
+  http://javasampleapproach.com/spring-framework/spring-mvc-rest-difference-between-controller-and-restcontroller
 
 - When do you need @ResponseBody? Or @RequestBody?
 
