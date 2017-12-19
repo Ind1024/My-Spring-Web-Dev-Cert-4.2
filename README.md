@@ -667,4 +667,61 @@ provides.
   https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/#22
   
   
+### Exceptions
+
+- How can exceptions be handled in the MVC framework?
+
+ ##### important: 
+ 
+  https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc
+ 
+  http://www.baeldung.com/exception-handling-for-rest-with-spring
+  
+  https://www.journaldev.com/2651/spring-mvc-exception-handling-controlleradvice-exceptionhandler-handlerexceptionresolver
+  
+  http://www.codejava.net/frameworks/spring/how-to-handle-exceptions-in-spring-mvc
+  
+  https://memorynotfound.com/spring-mvc-exception-handling/
+  
+  https://dzone.com/articles/handling-spring-mvc-exceptions
+  
+  https://stackoverflow.com/questions/35323174/what-are-the-advantages-of-controlleradvice-over-exceptionhandler-or-handlerex
+  
+  https://stackoverflow.com/questions/7228622/spring-mvc-exception-handling-with-handlerexceptionresolver?rq=1
+ 
+
+- What does a ControllerAdvice class do?
+
+- How do you set the HTTP status of a response in the event of an exception (to avoid the
+default 500 error)
+
+- Would you understand the configuration of a HandlerExceptionResolver if you saw it?
+
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/custom-handler-exception-resolver/
+
+- What can a SimpleMappingExceptionResolver be used for?
+
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/simple-mapping-exception-resolver/
+  
+  http://www.logicbig.com/how-to/code-snippets/jcode-spring-mvc-simplemappingexceptionresolver/
+  
+  https://howtodoinjava.com/spring/spring-mvc/spring-mvc-simplemappingexceptionresolver-example/
+  
+  https://stackoverflow.com/questions/6343679/spring-simplemappingexceptionresolver-together-with-exceptionhandler
+  
+
+- How can a RESTful request return an error?
+
+  https://stormpath.com/blog/spring-mvc-rest-exception-handling-best-practices-part-1
+  
+  https://stormpath.com/blog/spring-mvc-rest-exception-handling-best-practices-part-2
+  
+  http://springinpractice.com/2013/10/09/generating-json-error-object-responses-with-spring-web-mvc
+  
+  https://stackoverflow.com/questions/16232833/how-to-respond-with-http-400-error-in-a-spring-mvc-responsebody-method-returnin
+  
+  https://www.toptal.com/java/spring-boot-rest-api-error-handling
+  
+  
+
 
