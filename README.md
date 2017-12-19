@@ -550,6 +550,8 @@ provides.
 
 ### Spring MVC REST
 
+  https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/#22
+
 - What does REST stand for?
 
 - What is a resource?
@@ -604,17 +606,65 @@ provides.
 
 - What does @PathVariable do?
 
+  https://stackoverflow.com/questions/19803731/spring-mvc-pathvariable
+  
+  https://www.boraji.com/spring-4-mvc-pathvariable-annotation-example
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-path-variable/
+  
+
 - What is the HTTP status code for a delete statement? What about for a create?
+  
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+  
+  http://www.baeldung.com/spring-mvc-controller-custom-http-status-code
+  
+  https://stackoverflow.com/questions/2342579/http-status-code-for-update-and-delete
+  
+  https://stackoverflow.com/questions/29545861/what-is-the-http-status-return-code-for-a-successful-delete-statement-in-rest
+  
+  https://developer.yahoo.com/social/rest_api_guide/http-response-codes.html
 
 - What does CRUD mean? Which HTTP methods do you use for each CRUD operation?
 
+  https://spring.io/understanding/REST
+  
+  http://www.restapitutorial.com/lessons/httpmethods.html
+  
+
 - Is REST secure? What can you do to secure it?
 
-- Where do you need @EnableWebMVC? What about <mvc-annotation-driven>?
+  https://stackoverflow.com/questions/7238094/securing-rest-api-without-reinventing-the-wheel
+  
+  https://restfulapi.net/security-essentials/
+  
+  https://www.slideshare.net/stormpath/secure-your-rest-api-the-right-way
+  
+  http://www.baeldung.com/securing-a-restful-web-service-with-spring-security
+  
+  https://dzone.com/articles/restful-api-security
+  
+  https://stackoverflow.com/questions/4817643/how-to-secure-restful-web-services
+  
+  https://softwareengineering.stackexchange.com/questions/83458/why-do-we-need-rest-service-security-if-we-have-https
 
-- Name some common HTP response codes. When do you need @ResponseStatus?
+- Where do you need @EnableWebMVC? What about <mvc-annotation-driven>?
+  
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-enablewebmvc-annotation/
+  
+  http://www.codelooru.com/2010/10/what-does-mvcannotation-driven-do.html
+
+- Name some common HTTP response codes. When do you need @ResponseStatus?
+
+  http://www.baeldung.com/exception-handling-for-rest-with-spring
 
 - Does REST work with transport layer security (TLS)?
 
+  https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/#22
+
 - Do you need Spring MVC in your classpath?
+
+  https://www.dineshonjava.com/spring-rest-web-services-interview-questions-and-answers/#22
+  
+  
 
