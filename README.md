@@ -723,5 +723,72 @@ default 500 error)
   https://www.toptal.com/java/spring-boot-rest-api-error-handling
   
   
+### Securing Web Applications With Spring Security
 
+-  What web.xml configuration is required to enable Spring Security and what the mechanism Spring Security uses to protect web applications.
+
+  http://www.baeldung.com/spring-security-login
+
+  https://stackoverflow.com/questions/14019692/how-to-configure-spring-security-in-a-web-application
+  
+  https://spring.io/blog/2013/07/03/spring-security-java-config-preview-web-security/
+  
+  https://dzone.com/articles/securing-restful-web-service
+  
+  https://spring.io/guides/topicals/spring-security-architecture/
+  
+  https://martinfowler.com/articles/web-security-basics.html
+  
+  http://www.mkyong.com/tutorials/spring-security-tutorials/
+
+-  What Spring Security related configuration is needed to secure a web application.
+
+-  How should URL patterns be configured?
+
+  https://stackoverflow.com/questions/24948651/spring-security-difference-between-and-url-pattern-in-spring-security
+  
+  https://docs.spring.io/spring-security/site/docs/current/reference/html/security-filter-chain.html
+  
+  http://www.baeldung.com/spring-security-multiple-entry-points
+  
+  https://www.kevinhooke.com/2012/03/08/configuring-spring-security-for-finer-grained-url-pattern-matching-with-a-spring-roo-app/
+  
+  http://www.codejava.net/frameworks/spring/spring-web-mvc-security-basic-example-part-1-with-xml-configuration
+  
+
+##### Tip:
+
+- Pay special attention to the order in which URL patterns are provided. Does it matter if you put the
+more general (e.g. /accounts/*) or the more specific (e.g. /accounts/edit) pattern first?
+
+-  How method level security can be added to an application.
+
+  http://websystique.com/spring-security/spring-security-4-method-security-using-preauthorize-postauthorize-secured-el/
+  
+  https://docs.spring.io/spring-security/site/docs/3.0.x/reference/el-access.html
+  
+  https://spring.io/blog/2013/07/04/spring-security-java-config-preview-method-security/
+  
+  http://www.baeldung.com/spring-security-expressions-basic
+  
+  https://howtodoinjava.com/spring/spring-security/spring-3-method-level-security-example-using-preauthorize-and-secured/
+  
+  https://memorynotfound.com/spring-security-method-level-annotations-example/
+
+-  How authentication and authorization relate to each other – for example does the choice of
+authentication affect authorization?
+
+  http://www.studytrails.com/frameworks/spring/spring-security-using-db/
+  
+  https://dzone.com/refcardz/expression-based-authorization
+  
+  https://dzone.com/articles/spring-security-4-authenticate-and-authorize-users
+  
+  http://javawebtutor.com/articles/spring/spring-security-database-authentication.php
+  
+  http://www.beingjavaguys.com/2014/05/spring-security-authentication-and.html
+  
+  https://spring.io/guides/gs/securing-web/
+  
+  https://www.journaldev.com/8748/spring-security-role-based-access-authorization-example
 
