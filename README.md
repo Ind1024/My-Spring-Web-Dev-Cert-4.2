@@ -791,4 +791,54 @@ authentication affect authorization?
   https://spring.io/guides/gs/securing-web/
   
   https://www.journaldev.com/8748/spring-security-role-based-access-authorization-example
+  
+ 
+### Testing Web Applictions
+
+- How can the MVC layer be tested?
+
+  https://dzone.com/articles/junit-testing-spring-mvc
+  
+  https://spring.io/guides/gs/testing-web/
+  
+  https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html
+  
+  https://www.slideshare.net/sbrannen/testing-spring-mvc-and-rest-web-applications
+
+- How do we test Controller logic?
+
+  http://www.logicbig.com/tutorials/spring-framework/spring-web-mvc/spring-mvc-unit-testing/
+  
+  https://stackoverflow.com/questions/34793104/what-is-the-best-way-to-test-controllers-and-services-with-junit
+  
+  https://infinitescript.com/2014/05/unit-testing-of-spring-mvc-controllers/
+
+- How do we test if a Controller works properly inside the MVC framework?
+
+- What framework artifacts/components does Spring's Mock MVC allow you to test? (Refer to
+Testing Each Layer slide)
+
+  https://www.petrikainulainen.net/spring-mvc-test-tutorial/
+  
+  https://docs.spring.io/spring-security/site/docs/current/reference/html/test-mockmvc.html
+  
+  https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html
+  
+  https://memorynotfound.com/unit-test-spring-mvc-rest-service-junit-mockito/
+  
+  https://blog.zenika.com/2013/01/15/spring-mvc-test-framework/
+  
+  https://blog.zenika.com/2013/01/15/spring-mvc-test-framework/
+  
+  http://www.baeldung.com/integration-testing-in-spring
+  
+  https://stackoverflow.com/questions/14563489/how-to-test-a-spring-controller-method-by-using-mockmvc
+  
+  https://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-configuration/
+  
+  
+
+- If presented with the code for a Mock MVC test would you understand what it is doing? – we
+don't expect you to know the API from memory.
+
 
