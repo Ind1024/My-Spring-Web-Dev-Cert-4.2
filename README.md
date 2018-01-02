@@ -846,6 +846,18 @@ don't expect you to know the API from memory.
 
 - What is Spring Boot? What are the advantages of using Spring Boot?
 
+  https://www.journaldev.com/7969/spring-boot-tutorial
+  
+  https://stackoverflow.com/questions/28831479/advantage-of-spring-boot
+  
+  https://spring.io/blog/2013/08/06/spring-boot-simplifying-spring-for-everyone/
+  
+  https://dzone.com/articles/why-springboot
+  
+  https://www.quora.com/What-are-the-advantages-of-Spring-Boot-over-Spring
+  
+  http://www.java2novice.com/java_interview_questions/spring-boot-pros-and-cons/
+
 - Why is it “opinionated”?
 
 - How does it work? How does it know what to configure?
