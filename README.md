@@ -862,19 +862,19 @@ don't expect you to know the API from memory.
 
 - How does it work? How does it know what to configure?
 
+  http://www.baeldung.com/spring-boot-application-configuration
+
 - What things affect what Spring Boot sets up?
 
 - How are properties defined? Where?
 
-- Would you recognize common Spring Boot annotations and configuration properties if you
-saw them in the exam?
+- Would you recognize common Spring Boot annotations and configuration properties if you saw them in the exam?
 
 - What is the difference between an embedded container and a WAR?
 
 - What embedded containers does Spring Boot support?
 
-- What does @EnableAutoConfiguration do? What about
-@SpringBootApplication?
+- What does @EnableAutoConfiguration do? What about @SpringBootApplication?
 
 - What is a Spring Boot starter POM? Why is it useful?
 
